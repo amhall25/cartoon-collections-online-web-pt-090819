@@ -35,5 +35,9 @@ def find_the_cheese(array)
     cheese+=item
     end
   end
-  return cheese
+  if cheese==""
+    return NIL
+  else
+    return cheese
+  end
 end
