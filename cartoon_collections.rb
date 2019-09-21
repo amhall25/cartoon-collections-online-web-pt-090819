@@ -8,9 +8,9 @@ end
 
 def summon_captain_planet(array)
   array.map do |element|
-    puts element[0].upcase + element[1..-1] +"!"
+    element[0].upcase + element[1..-1] +"!"
   end
-  array
+  
 end
 
 def long_planeteer_calls# code an argument here
