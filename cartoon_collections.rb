@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(array)
   array.each do |element|
-    puts "#{element[0].upcase} #{element[1..-1]!"
+    puts element[0].upcase + element[1..-1] +"!"
   end
 end
 
